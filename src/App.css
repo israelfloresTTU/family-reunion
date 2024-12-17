@@ -9,6 +9,12 @@ body {
   flex-wrap: wrap;
 }
 
+.divider {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
 @media (max-width: 768px) {
   .info-row {
     flex-direction: column;
